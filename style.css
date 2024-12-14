@@ -1,0 +1,67 @@
+.wordleContainer{
+    width: 340px;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+}
+
+.row{
+    display: flex;
+    gap: 12px;
+}
+
+.row div{
+    width: 60px;
+    height: 60px;
+    background-color: #dce1ed;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.keyboard{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.keyboard-row{
+    display: flex;
+    gap: 10px;
+    margin: auto;
+}
+  
+.key{
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: #dce1ed;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.key:hover{
+    background-color: #d0d4dd;
+}
+
+.key.enter{
+    width: 80px;
+}
+
+.key.backspace{
+    width: 130px;
+}
+
